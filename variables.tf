@@ -9,3 +9,9 @@ variable "string_variable" {
   description = "A string variable."
   type        = string
 }
+
+variable "sensitive_string_variable" {
+  description = "A string variable that is sensitive."
+  type = string
+  sensitive = true
+}
