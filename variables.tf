@@ -15,3 +15,8 @@ variable "sensitive_string_variable" {
   type = string
   sensitive = true
 }
+
+variable "boolean_variable" {
+  description = "A boolean variable."
+  type        = bool
+}
