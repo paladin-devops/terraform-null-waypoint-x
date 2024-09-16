@@ -1,3 +1,3 @@
-# Copyright (c) HashiCorp, Inc.
+resource "null_resource" "resource_1" {}
 
-resource "null_resource" "trivial_resource" {}
+resource "null_resource" "resource_2" {}
