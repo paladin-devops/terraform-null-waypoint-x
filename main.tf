@@ -1,3 +1,6 @@
 resource "null_resource" "null" {
-  count = 5
+  triggers = {
+    waypoint_application = var.waypoint_application
+  }
 }
+
